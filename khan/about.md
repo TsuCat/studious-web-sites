@@ -1,1 +1,1 @@
-Copycat of an old Khan Academy layout.
+Recreation of an old Khan Academy layout.
