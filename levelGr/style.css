@@ -1,0 +1,282 @@
+*{
+    box-sizing: inherit;
+    word-spacing: 2px;
+    letter-spacing: 0.4px;
+}
+
+html, body{
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    font-family: "Trebuchet MS", Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-size: 62.5%;
+}
+
+header{
+    width: 100%;
+    background-color: #66768a;
+    height: 70px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+nav > *{
+    text-transform: uppercase;
+    float: left;
+}
+
+.headLeft{
+    width: 44%;
+    margin-top: 30px;
+}
+
+.headLeft li{
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0 20px;
+}
+
+.headLeft a{
+    color: white;
+    text-decoration: none;
+}
+
+.headRight{
+    width: 78px;
+    display: block;
+    border-radius: 5px;
+    margin: 15px 45px 0 0;
+    padding: 10px;
+    color: #66768a;
+    background-color: white;
+    float: right;
+}
+
+main section{
+    width: 100%;
+}
+
+section{
+    text-align: center;
+}
+
+.Grit{
+    height: 550px;
+    background-color: #66768a;
+}
+
+h1{
+    margin: 0;
+    padding: 65px 0 35px 0;
+    font-size: 7rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.Grit p{
+    font-size: 2.8rem;
+    color: whitesmoke;
+    margin: 0 15vw;
+    padding-bottom: 45px;
+}
+
+.Grit a{
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    font-size: 2rem;
+}
+
+.Why{
+    box-sizing: border-box;
+    height: 500px;
+    padding: 5% 10%;
+}
+
+.Why h2{
+    font-size: 5rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.Why p{
+    font-size: 2rem;
+    margin: 0 20vw;
+}
+
+.Visit{
+    height: 700px;
+    background-color: #dbdfe2;
+    padding: 0 10vw;
+    color: #3f464d;
+}
+
+.Visit > section{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.Visit h4{
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.Visit p{
+    font-size: 1.6rem;
+    margin: 0 18% 60px 18%;
+}
+
+.Visit a{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3f464d;
+    border: 2px solid grey;
+    padding: 15px 40px;
+}
+
+.sVisit{
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-color: #66768a;
+    margin: 100px 25% 30px 25%;
+}
+
+.Volunteer{
+    width: 100%;
+    height: 500px;
+    padding: 5% 10%;
+}
+
+.Volunteer h3{
+    font-size: 5rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.Volunteer p{
+    font-size: 2rem;
+    margin: 0 20vw 60px 20vw;
+}
+
+.Volunteer a{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3f464d;
+    border: 2px solid grey;
+    padding: 15px 40px;
+}
+
+footer{
+    width: 100%;
+    height: 280px;
+    background-color: #161f2a;
+}
+
+.footL,.footR{
+    height: 80%;
+    float: left;
+    text-align: left;
+    color: white;
+    font-size: 2.2rem;
+}
+
+h5{
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.footL{
+    width: 10%;
+    margin-left: 5%;
+}
+
+.footL *{
+    text-align: left;
+}
+
+.footL section{
+    height: 33.3333%;
+}
+
+.footL h5{
+    color: #4b545c;
+}
+
+.footL a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.7rem;
+    float: left;
+}
+
+.socialMed *{
+    width: 22%;
+    margin: 16% 5% 0 5%;
+    padding: 6% 5%;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.socialMed a{
+    font-size: 1.1rem;
+    color: lightblue;
+}
+
+.footL .footAlign{
+    float: right;
+}
+
+.footR{
+    width: 15%;
+    margin-right: 5%;
+}
+
+.footPad{
+    width: 65%;
+    height: 80%;
+    float: left;
+}
+
+.footR h5:first-child{
+    margin-top: 18%;
+}
+
+.footR p{
+    color:rgb(200, 200, 200);
+    font-size: 1.6rem;
+    margin: 1% 0;
+}
+
+.footR > h5+p{
+    padding-top: 10%;
+}
+
+.footR span{
+    padding: 0;
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+.footBot{
+    width: 90%;
+    height: 20%;
+    clear: both;
+    margin: 0 5%;
+    border-top: 2px solid white;
+}
+
+.footBot p{
+    color: white;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.footBot img{
+    float: right;
+    color: white;
+}
