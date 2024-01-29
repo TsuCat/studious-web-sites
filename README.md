@@ -1,2 +1,2 @@
 # studious-web-sites
-A collection of website layouts I practiced.
+A collection of website layouts I practiced creating.
